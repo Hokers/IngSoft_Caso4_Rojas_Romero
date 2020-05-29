@@ -3,11 +3,302 @@
 \subsection{Descripción del grupo de trabajo}
 El grupo para este proyecto esta conformado por:
 
-José Rojas : Programmer, Artist, Game Designer.
+\begin{tabular}{|c|c|c|}
+\hline 
+Nombre & Alias & Capacidades de profesión \\ 
+\hline 
+José Rojas & JR & Programador Junior, Artista, Diseñador de Videojuegos \\ 
+\hline 
+Nicolás Romero & NR & Programador Junior, Artista, Diseñador de Videojuegos \\ 
+\hline 
+\end{tabular} 
 
-Nicolás Romero : Programmer, Artist, Game Designer.
+Descripción del general del trabajo de JR: Se encargara de la gestión del proyecto, el
+plan del proyecto, trabajara en conjunto con su compañero para hacer los requerimientos,
+realizara tanto el diseño inicial como detallado de la app, hará la mitad de la codificación y por ultimo hará la creación de la UI.
+
+Descripción del general del trabajo de NR: Se encargara de parte de los requerimientos,
+trabajara en conjunto con su compañero para hacer el plan del proyecto,ademas realizara la
+prueba unitaria, prueba funcional, prueba de integración, prueba de la aplicación finalizada
+y por ultimo, hara la mitad de la codificación del proyecto y la creación de Assets 3D.
+
 
 \subsection{Estimación de esfuerzo}
+\subsubsection{Complejidad de Archivos}
+La siguiente tabla muestra las diferentes funciones necesaria para el correcto funcionamiento del software.
+
+\begin{tabular}{|p{5cm}|p{8cm}|}
+\hline 
+Tipos de parámetros & Nombres \\ 
+\hline 
+EI (Entradas Externas) & Obtener Pieza Historica (PH), Buscar PH \\ 
+\hline 
+EO (Salidas Externas) & Compartir Modelo 3d o Foto de PH en RRSS.
+Lista de piezas historicas obtenidas, Biblioteca de trofeos obtenidos.
+ \\ 
+\hline 
+EQ (Consultas Externas) & Visualizar PH, Rotar PH, Ver información de PH, Hacer Zoom in a PH, Hacer Zoom out a
+PH.
+ \\ 
+\hline 
+ILF (Ficheros lógicos internos) & Datos de PH, Datos de Trofeos. \\ 
+\hline 
+EIF (Ficheros de interfaces externas) & Obtener piezas historicas compartidas en
+RRSS.
+ \\ 
+\hline 
+\end{tabular} 
+
+\begin{tabular}{|p{5cm}|p{8cm}|}
+\hline 
+Objetos & Datos necesarios \\ 
+\hline 
+Pieza Historica & Autor,Nombre de la pieza, Año de creación, Material
+usado, dimensiones, Ubicación en el museo, Nombre del
+Museo. Nombre del fotografo de la pieza. Detalles de la
+pieza y datos interesantes. \\ 
+\hline 
+Trofeo & Tipo de Trofeo, Nombre de trofeo, detalles de trofeo. \\ 
+\hline 
+Museo & Nombre, ubicación, fecha de construcción, lista de piezas
+historicas. \\ 
+\hline 
+\end{tabular} 
+
+\subsubsection{Complejidad de las funcionalidades, cálculo de FP, grados de influencia, y otros cálculos}
+En las siguientes tabla se muestra la complejidad de las diferentes funcionalidades ligadas al software.
+
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Entradas Externas EI & • & • & • \\ 
+\hline 
+Nombre & DET & FTR & Complex \\ 
+\hline 
+Obtener Pieza Historica & 4 & 1 & Low \\ 
+\hline 
+Buscar Pieza Historica & 2 & 1 & Low \\ 
+\hline 
+Obtener Trofeo & 3 & 1 & Low \\ 
+\hline 
+Escanear Codigo QR del Muse & 3 & 1 & Low \\ 
+\hline 
+\end{tabular}
+
+\begin{tabular}{|c|c|c|c|}
+ \hline 
+ Salidas Externas EO & • & • & • \\ 
+ \hline 
+ Nombre & DET & FTR & Complex \\ 
+ \hline 
+ Compartir Modelo 3d o Foto de PH en RRSS & 3 & 2 & Low \\ 
+ \hline 
+ Biblioteca de piezas historicas obtenidas & 3 & 1 & Low \\ 
+ \hline 
+ Biblioteca de trofeos obtenidos. & 3 & 1 & Low \\ 
+ \hline 
+ \end{tabular} 
+ 
+ \begin{tabular}{|c|c|c|c|}
+  \hline 
+  Consultas Externas EQ & • & • & • \\ 
+  \hline 
+  Nombre & DET & FTR & Complex \\ 
+  \hline 
+  Visualizar Pieza Historica & 2 & 1 & Low \\ 
+  \hline 
+  Rotar Pieza Historica & 2 & 1 & Low \\ 
+  \hline 
+  Ver info. de Pieza Historica & 2 & 1 & Low \\ 
+  \hline 
+  Zoom in a Pieza Historica & 2 & 1 & Low \\ 
+  \hline 
+  Zoom out a Pieza Historica & 2 & 1 & Low \\ 
+  \hline 
+  Ver info. de Museo & 2 & 1 & Low \\ 
+  \hline 
+  Visualizar Museo & 2 & 1 & Low \\ 
+  \hline 
+  Ver info. de Trofe & 2 & 1 & Low \\ 
+  \hline 
+  \end{tabular} 
+  
+  \begin{tabular}{|c|c|c|c|}
+   \hline 
+   Ficheros lo´gicos internos ILF & • & • & • \\ 
+   \hline 
+   Nombre & DET & FTR & Complex \\ 
+   \hline 
+   Datos de Piezas Historicas & 11 & 1 & Low \\ 
+   \hline 
+   Datos de Trofeos & 4 & 1 & Low \\ 
+   \hline 
+   Datos de Museos & 4 & 2 & Low \\ 
+   \hline 
+   \end{tabular}  
+   
+   \begin{tabular}{|c|c|c|c|}
+   \hline 
+   EIF (Ficheros de interfaces externas) & • & • & • \\ 
+   \hline 
+   Nombre & DET & FTR & Complex \\ 
+   \hline 
+   Obtener piezas historicas compartidas en RRSS. & 3 & 2 & Low \\ 
+   \hline 
+   \end{tabular} 
+   
+   Ahora podemos calcular los puntos de función sin ajustar, TUFP.
+   
+   \begin{tabular}{|p{3cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|}
+   \hline 
+   • & \multicolumn{2}{c|}{Bajo} & \multicolumn{2}{c|}{Medio} & \multicolumn{2}{c|}{Alto} \\ 
+   \hline 
+   • & Número & Puntuación & Número & Puntuación & Número & Puntuación \\ 
+   \hline 
+   Ficheros Lógicos Internos a la Aplicación & 3 & 7 & 0 & 10 & 0 & 15 \\ 
+   \hline 
+   Ficheros Lógicos Externos a la Aplicación
+    & 1 & 5 & 0 & 7 & 0 & 10 \\ 
+   \hline 
+   Input Externos & 4 & 3 & 0 & 4 & 0 & 6 \\ 
+   \hline 
+   Outputs Externos
+    & 3 & 4 & 0 & 5 & 0 & 7 \\ 
+   \hline 
+   Queries & 7 & 3 & 0 & 4 & 0 & 6 \\ 
+   \hline 
+   • & • & 71 & • & 0 & • & 0 \\ 
+   \hline 
+   \end{tabular} 
+   
+   El total de TUFP = 53 , cálculo y tabla generada a partir de la planilla de cálculo.
+   
+   Grados de influencia y otros cálculos
+   
+   Calculamos los grados de influencia a partir de la planilla de calculo y podemos obtener lo siguiente:
+   
+   \begin{tabular}{|c|c|}
+   \hline 
+   TOTAL GRADOS DE INFLUENCIA & 11 \\ 
+   \hline 
+   Puntos de Función Ajustados & 53 \\ 
+   \hline 
+   VAF & 0,76 \\ 
+   \hline 
+   \end{tabular} 
+   
+\subsubsection{C.T Jones / COCOMO II}
+
+\begin{tabular}{|c|c|}
+\hline 
+FP & 53 \\ 
+\hline 
+Loc en POO  & 20 \\ 
+\hline 
+\end{tabular} 
+
+\begin{tabular}{|p{8cm}|c|}
+\hline 
+C.T Jones & • \\ 
+\hline 
+Métrica  & Cálculo \\ 
+\hline 
+Estimación de meses de desarrollo & 4,894522709 \\ 
+\hline 
+Número de personas necesarias para el desarrollo (NP) & 0,3533333333 \\ 
+\hline 
+Estimación del esfuerzo en personas/mes  & 1,729398024 \\ 
+\hline 
+Estimación de esfuerzo en horas hombre (160 horas x mes) 160 horas, ya que
+, se considera 1 jornada diaria de 8 horas & 276,7036838 \\ 
+\hline 
+\end{tabular} 
+
+Estimación de esfuerzo en base a C.T. Jones 1.996 Software Estimating Rules of Thumb” y B. Boehm COCOMO II en fase de Early Design
+
+\begin{tabular}{|c|c|}
+\hline 
+COCOMO II & • \\ 
+\hline 
+Métrica  & Cálculo \\ 
+\hline 
+Conversión de FP a LOC. & 1060 \\ 
+\hline 
+\end{tabular}
+
+Calculo de esfuerzo con COCOMO II con entrada de 1260 LOC y con factores de escala nominales.
+
+\begin{tabular}{|p{3cm}|c|c|c|}
+ \hline 
+ Estimación & Optimista & Conservador & Pesimista \\ 
+ \hline 
+ Meses de desarrollo & 4,6 & 5,2 & 5,9 \\ 
+ \hline 
+ Personas necesarias & 0,4 & 0,6 & 0,8 \\ 
+ \hline 
+ Personas/mes & 2 & 3 & 4,5 \\ 
+ \hline 
+ Esfuerzo en horas hombre (160 horas x mes) & 294,4 & 499,2 & 755,2 \\ 
+ \hline 
+ \end{tabular}
+ 
+\begin{tabular}{|c|c|}
+  \hline 
+  LOC Equivalentes & 1060 \\ 
+  \hline 
+\end{tabular}
+
+Estimación del costo monetario en base al esfuerzo en HH conservador. Definiremos 2 perfiles:
+
+Programador Junior: Perfil requerido para realizar la codificación crítica en base al diseño del software, gestión del proyecto, requerimientos, el plan del proyecto y los diseños base de la aplicación.
+
+Artista Junior: Perfil requerido para la creación de assets 3d y UI para los diseños creados para el proyecto.
+
+Estimación del coste de producir el software en 5.2 meses con 499 HH, bajo el modelo conservador de COCOMO II 
+
+\begin{tabular}{|p{4cm}|p{2.2cm}|p{2.4cm}|p{2.7cm}|p{2cm}|}
+\hline 
+Costo del producto  & • & • & • & • \\ 
+\hline 
+Etapa    & Distribución en \% & Distribución de T (HH) & Costo x Recurso & Recurso \\ 
+\hline 
+Gestión del proyecto & 3 & 14,97 & Programador Junior & \$44.910 \\ 
+\hline 
+Requerimientos & 8 & 39,92 & Programador Junior & \$119.760 \\ 
+\hline 
+Plan del proyecto & 1 & 4,99 & Programador Junior & \$14.970 \\ 
+\hline 
+Diseño inicial & 8 & 39,92 & Programador Junior & \$119.760 \\ 
+\hline 
+Diseño detallado & 8 & 39,92 & Programador Junior & \$119.760 \\ 
+\hline 
+Codificación & 48 & 239,52 & Programador Junior & \$718.560 \\ 
+\hline 
+Documentación de usuario & 1 & 4,99 & Programador Junior & \$14.970 \\ 
+\hline 
+Prueba unitaria & 3 & 14,97 & Programador Junior & \$44.910 \\ 
+\hline 
+Prueba funcional & 3 & 14,97 & Programador Junior & \$44.910 \\ 
+\hline 
+Prueba de integración & 4 & 19,96 & Programador Junior & \$59.880 \\ 
+\hline 
+Prueba de la app & 6 & 29,94 & Programador Junior & \$89.820 \\ 
+\hline 
+Creación de Assets 3D & 4 & 19,96 & Artista Junior & \$39.920 \\ 
+\hline 
+Creación de UI & 3 & 14,97 & Artista Junior & \$29.940 \\ 
+\hline 
+• & 100 & 499 & • & \$1.392.210 \\ 
+\hline 
+\end{tabular} 
+
+
+
+   
+  
+
+
+
+
 
 \subsection{Asignación de recursos}
 
