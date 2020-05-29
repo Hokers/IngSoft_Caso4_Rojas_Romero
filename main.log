@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  29 MAY 2020 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  29 MAY 2020 14:30
 entering extended mode
 **./main.tex
 (main.tex
@@ -284,6 +284,25 @@ Package color Info: Driver file: pdftex.def on input line 147.
 \everycr=\toks20
 \minrowclearance=\skip53
 )
+("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.st
 y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -314,24 +333,24 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
 
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
@@ -349,7 +368,7 @@ df.mkii"
 \everyMPtoPDFconversion=\toks24
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
 
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -365,9 +384,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count197
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -375,14 +394,14 @@ LaTeX Info: Redefining \nameref on input line 29.
 <imgs/logo_utal.png, id=203, 225.84375pt x 225.84375pt>
 File: imgs/logo_utal.png Graphic file (type png)
 <use imgs/logo_utal.png>
-Package pdftex.def Info: imgs/logo_utal.png  used on input line 34.
+Package pdftex.def Info: imgs/logo_utal.png  used on input line 35.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 55.
+(Font)              <12> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
+(Font)              <8> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
+(Font)              <6> on input line 56.
  [1
 
 {C:/Users/Hachi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imgs/logo
@@ -408,33 +427,48 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [7] (cap/Introduccion.tex) [8]
-(cap/Planificacion_del_trabajo.tex [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
+ [7] (cap/Introduccion.tex [8]) [9]
+(cap/Planificacion_del_trabajo.tex [10] [11] [12]
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--155
+[]|\OT1/cmr/m/n/12 Puntuacion| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--155
+[]|\OT1/cmr/m/n/12 Puntuacion| 
+ []
+
+
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--156
+[]|\OT1/cmr/m/n/12 Puntuacion| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \OT1/cmr/m/n/12 In-ter-nos a la
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 158--158
+Underfull \hbox (badness 8038) in paragraph at lines 159--160
 \OT1/cmr/m/n/12 Ex-ter-nos a la
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 162--162
+Underfull \hbox (badness 3601) in paragraph at lines 164--165
 []|\OT1/cmr/m/n/12 Outputs Ex-ter-
  []
 
 
-Overfull \hbox (18.56244pt too wide) in paragraph at lines 150--169
+Overfull \hbox (10.64555pt too wide) in paragraph at lines 151--172
 [][] 
  []
 
-[12] [13]
+[13] [14]
+Underfull \hbox (badness 1259) in paragraph at lines 234--234
+[]|\OT1/cmr/m/n/12 Meses de de-sa-
+ []
+
+
 Overfull \hbox (0.62283pt too wide) in paragraph at lines 262--262
 []|\OT1/cmr/m/n/12 Distribucion
  []
@@ -495,11 +529,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--280
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 282--282
-[]|\OT1/cmr/m/n/12 Prueba de in-te-gra-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 282--282
 []|\OT1/cmr/m/n/12 Programador
  []
@@ -509,46 +538,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
 []|\OT1/cmr/m/n/12 Programador
  []
 
-
-Underfull \hbox (badness 2205) in paragraph at lines 286--286
-[]|\OT1/cmr/m/n/12 Creacion de As-sets
- []
-
-[14]
-Overfull \vbox (11.11964pt too high) has occurred while \output is active []
-
-
-[15]) [16] (cap/Analisis.tex [17]) [18] (cap/Validacion.tex) [19] [20]
-(cap/Implementacion.tex) [21] (cap/Anexos.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+[15]) [16] [17] (cap/Analisis.tex [18]) [19] (cap/Validacion.tex) [20] [21]
+(cap/Implementacion.tex) [22] (cap/Anexos.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
  (main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8119B3BA8B0C79C6DD711633300744ED;3814.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+(rerunfilecheck)             Checksum: E7C8A138B4C3B13EFA383E9221DD914D;3815.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 6701 strings out of 480930
- 105173 string characters out of 2899762
- 384643 words of memory out of 3000000
- 22343 multiletter control sequences out of 15000+200000
+ 7108 strings out of 480930
+ 109927 string characters out of 2899762
+ 394034 words of memory out of 3000000
+ 22743 multiletter control sequences out of 15000+200000
  537894 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,10n,35p,434b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,37p,800b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Hachi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Hachi/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (22 pages, 112680 bytes).
+Output written on main.pdf (23 pages, 115236 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
