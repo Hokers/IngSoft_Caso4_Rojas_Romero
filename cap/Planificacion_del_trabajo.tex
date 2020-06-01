@@ -24,6 +24,8 @@ y por ultimo, hara la mitad de la codificación del proyecto y la creación de A
 
 
 \subsection{Estimación de esfuerzo}
+En la siguiente sección se especifica la estimación de esfuerzo para la realización de esta app tomando en cuenta los las diferentes entradas y complejidades de archivo además de sus costes de producción.
+
 \subsubsection{Complejidad de Archivos}
 La siguiente tabla muestra las diferentes funciones necesaria para el correcto funcionamiento del software.
 
@@ -70,7 +72,7 @@ En las siguientes tabla se muestra la complejidad de las diferentes funcionalida
 
 \begin{tabular}{|c|c|c|c|}
 \hline 
-Entradas Externas EI & • & • & • \\ 
+Entradas Externas EI &   &   &   \\ 
 \hline 
 Nombre & DET & FTR & Complex \\ 
 \hline 
@@ -86,7 +88,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
 
 \begin{tabular}{|c|c|c|c|}
  \hline 
- Salidas Externas EO & • & • & • \\ 
+ Salidas Externas EO &   &   &   \\ 
  \hline 
  Nombre & DET & FTR & Complex \\ 
  \hline 
@@ -100,7 +102,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
  
  \begin{tabular}{|c|c|c|c|}
   \hline 
-  Consultas Externas EQ & • & • & • \\ 
+  Consultas Externas EQ &  &  &  \\ 
   \hline 
   Nombre & DET & FTR & Complex \\ 
   \hline 
@@ -124,7 +126,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
   
   \begin{tabular}{|c|c|c|c|}
    \hline 
-   Ficheros lo´gicos internos ILF & • & • & • \\ 
+   Ficheros lo´gicos internos ILF &  &  &  \\ 
    \hline 
    Nombre & DET & FTR & Complex \\ 
    \hline 
@@ -138,7 +140,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    
    \begin{tabular}{|c|c|c|c|}
    \hline 
-   EIF (Ficheros de interfaces externas) & • & • & • \\ 
+   EIF (Ficheros de interfaces externas) &  &  &  \\ 
    \hline 
    Nombre & DET & FTR & Complex \\ 
    \hline 
@@ -150,9 +152,9 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    
    \begin{tabular}{|p{3cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|}
    \hline 
-   • & \multicolumn{2}{c|}{Bajo} & \multicolumn{2}{c|}{Medio} & \multicolumn{2}{c|}{Alto} \\ 
+     & \multicolumn{2}{c|}{Bajo} & \multicolumn{2}{c|}{Medio} & \multicolumn{2}{c|}{Alto} \\ 
    \hline 
-   • & Número & Puntuación & Número & Puntuación & Número & Puntuación \\ 
+     & Número & Puntuación & Número & Puntuación & Número & Puntuación \\ 
    \hline 
    Ficheros Lógicos Internos a la Aplicación & 3 & 7 & 0 & 10 & 0 & 15 \\ 
    \hline 
@@ -166,7 +168,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    \hline 
    Queries & 7 & 3 & 0 & 4 & 0 & 6 \\ 
    \hline 
-   • & • & 71 & • & 0 & • & 0 \\ 
+     &   & 71 &   & 0 &   & 0 \\ 
    \hline 
    \end{tabular} 
    
@@ -198,7 +200,7 @@ Loc en POO  & 20 \\
 
 \begin{tabular}{|p{8cm}|c|}
 \hline 
-C.T Jones & • \\ 
+C.T Jones &   \\ 
 \hline 
 Métrica  & Cálculo \\ 
 \hline 
@@ -217,7 +219,7 @@ Estimación de esfuerzo en base a C.T. Jones 1.996 Software Estimating Rules of 
 
 \begin{tabular}{|c|c|}
 \hline 
-COCOMO II & • \\ 
+COCOMO II &   \\ 
 \hline 
 Métrica  & Cálculo \\ 
 \hline 
@@ -255,9 +257,11 @@ Artista Junior: Perfil requerido para la creación de assets 3d y UI para los di
 
 Estimación del coste de producir el software en 5.2 meses con 499 HH, bajo el modelo conservador de COCOMO II 
 
-\begin{tabular}{|p{4cm}|p{2.2cm}|p{2.4cm}|p{2.7cm}|p{2cm}|}
+\subsection{Asignación de recursos}
+
+\begin{longtable}{|p{4cm}|p{2.2cm}|p{2.4cm}|p{2.7cm}|p{2cm}|}
 \hline 
-Costo del producto  & • & • & • & • \\ 
+Costo del producto  &   &   &   &   \\ 
 \hline 
 Etapa    & Distribución en \% & Distribución de T (HH) & Costo x Recurso & Recurso \\ 
 \hline 
@@ -287,19 +291,221 @@ Creación de Assets 3D & 4 & 19,96 & Artista Junior & \$39.920 \\
 \hline 
 Creación de UI & 3 & 14,97 & Artista Junior & \$29.940 \\ 
 \hline 
-• & 100 & 499 & • & \$1.392.210 \\ 
+  & 100 & 499 &   & \$1.392.210 \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
 
-
-   
-  
-
-
-
-
-
-\subsection{Asignación de recursos}
 
 \subsection{Planificación temporal de actividades}
+
+En la siguiente tabla se especifica lo necesario para prototipar la aplicación.
+
+\begin{longtable}{| p{.20\textwidth}| p{.12\textwidth}| p{.12\textwidth}| p{.39\textwidth}|}
+\hline 
+	Carta Gantt & 
+	Inicio & 
+	Termino	& 
+	Descripción
+\\ 
+\hline 
+	1.- Integración de piezas (modelos 3d) &
+	01/06/2020 &
+	20/07/2020 & 
+	La app consta con los modelos 3d finales.
+\\ 
+\hline 
+	1.1.- Escanear tarjetas con AR &
+ 	01/06/2020 & 
+ 	14/06/2020 & 
+	La app tendrá en completo funcionamiento la capacidad de escanear las tarjetas diseñadas.
+\\ 
+\hline 
+	1.2-  Mostrar habitacion del museo &
+	14/06/2020 &
+	01/07/2020 & 
+	Se mostrará el ambiente de museo dentro de la aplicación.
+	\\ 
+\hline 
+	1.2.1- Creación de tarjetas con código &
+	01/06/2020 &
+	14/06/2020 & 
+	Creacion de imagenes apropiadas para la app.
+	\\
+\hline 
+	1.2.2.- Diseño de imágenes &
+	01/06/2020 &
+	07/06/2020 &
+	Se diseñarán las imágenes de forma práctica para una buena lectura por parte del escáner.
+\\
+\hline 
+	1.2.3.- Test de usabilidad &
+	07/06/2020 &
+	14/06/2020 & 
+	Se verificará que las imágenes diseñadas funcionen correctamente dentro de la app.
+\\ 
+\hline 
+	1.3.- Interacción con las piezas del museo &
+	28/06/2020 &
+	12/06/2020 & 
+	Se implementara una modo “visualización de pieza” donde el usuario será capaz de realizar diferentes interacciones con las piezas del museo.
+\\
+\hline 
+	1.3.1.- Zoom in/out de la pieza &
+	28/06/2020 &
+	12/07/2020 & 
+	Implementar la acción de acercar y alejar la pieza con el fin de que el usuario pueda observar mejor.
+\\
+\hline 
+	1.3.2.- Rotación libre de la pieza &
+	28/06/2020 &
+	12/07/2020 & 
+	Implementar la acción de rotar la pieza con el fin de que el usuario pueda verla completamente sin perder ningún detalle.
+	\\
+\hline 
+	1.3.3.- Visualizar info de las piezas &
+	28/06/2020 &
+	12/07/2020 &
+	Implementar un panel descriptivo que muestre al usuario la información básica de cada pieza, (Nombre, Edad, Fecha descubrimiento, Descubridor/Creador, Descripción breve,Descripción extendida ).
+\\
+\hline 
+	1.3.4.- Acción de dejar de visualizar la pieza &
+	28/06/2020 &
+	12/07/2020 &
+	El usuario tiene que tener la capacidad de volver a la zona principal cuando desee.
+\\
+\hline 
+	1.3.5.- Seleccionar pieza &
+	28/06/2020 &
+	12/07/2020 &
+	El usuario deberá poder acceder a a la visualización de la pieza desde la zona principal cliqueando sobre ella.
+\\ 
+\hline 
+	1.4.- Implementar feedback al descubrir pieza &
+	5/07/2020 &
+	20/07/2020 & 
+	El usuario deberá tener la certeza de que descubrió alguna pieza nueva y que esta se agregó a tu “Menú de descubrimientos”.
+\\
+\hline 
+	2.- Compartir en redes sociales &
+	01/06/2020 &
+	21/06/2020 &
+	En cualquier momento el usuario podrá compartir, la pieza que está visualizando, el descubrimiento de una nueva pieza, el hecho de que está ocupando la app.
+\\
+\hline 
+	2.1.- Definir el mensaje a compartir &
+	01/06/2020 & 
+	07/06/2020 & 
+	Se deben definir las intenciones del mensaje a compartir en las diferentes R.R.S.S.
+\\
+\hline 
+	2.2.- Definir redes sociales &
+	01/06/2020 &
+	04/06/2020 & 
+	Se debe definir a qué redes sociales se quiere que el usuario pueda compartir.
+\\
+\hline 
+	2.3.- Implementar coneccion con RRSS &
+	07/06/2020 &
+	21/06/2020 &
+	Implementar la coneccion con las R.R.S.S.
+\\
+\hline 
+	3.- Sala de trofeos &
+	01/06/2020 &
+	28/06/2020 &
+	El usuario tendrá una “Sala de trofeos” o “Menú de descubrimientos” donde podra ver todas las piezas encontradas hasta el momento, desde esta zona podrá acceder a la visualización e información de las piezas.
+\\
+\hline 
+	3.1.- Diseñar interacciones &
+	07/06/2020 &
+	21/06/2020 &
+	Se debe planear el correcto y más cómodo funcionamiento de la “Sala de trofeos”.
+\\
+\hline 
+	4.- Desplazamiento en el museo &
+	07/06/2020 &
+	21/06/2020 &
+	El usuario debe ser capaz de desplazarse por el museo.
+\\
+\hline 
+	4.1.- Programar desplazamiento en el museo &
+	21/06/2020 &
+	20/07/2020 &
+	La habitación que se está visualizando tendrá flechas que servirán de botones para desplazarse a otras habitaciones.
+\\ 
+\hline 
+	4.2.- Implementar feedback de desplazamiento) &
+	01/07/2020 &
+	20/07/2020 &
+	El usuario debe notar que se desplazó a otra habitación mostrando una animación de desplazamiento y denotando que la habitación en la que esta es diferente.
+\\
+\hline 
+	4.3.- Pruebas de uso &
+	01/07/2020 &
+	20/07/2020 &
+	Se debe asegurar que el desplazamiento por el museo sea cómodo para el usuario.
+\\
+\hline 
+	5.- Flujo de juego &
+	01/06/2020 &
+	14/06/2020 & 
+	...
+	\\
+\hline 
+	5.1.- Diseño de flujo de juego &
+	01/06/2020 &
+	14/06/2020 &
+	Se debe diseñar un “Tutorial” para que el usuario entienda las acciones principales de la aplicación y su usabilidad.
+\\
+\hline 
+	5.2 Pruebas de uso &
+	07/06/2020 &
+	14/06/2020 & 
+	Se debe verificar que el usuario entiende la app y que no deja de lado ciertas características.
+\\
+\hline 
+	6.- Flujo de menús &
+	01/06/2020 &
+	14/06/2020 &
+	...
+\\ 
+\hline 
+	6.1.- Diseñar menús &
+	01/06/2020 &
+	14/06/2020 &
+	Se debe diseñar los diferentes menús dentro de la app.
+\\
+\hline 
+	6.2.- Implementar menús &
+	14/06/2020 &
+	28/06/2020 &
+	...
+\\ 
+\hline 
+	6.3.- Pruebas de uso &
+	07/06/2020 &
+	14/06/2020 & 
+	Se debe verificar que el usuario entiende el funcionamiento de los diferentes menús dentro de la app.
+\\
+\hline 
+	7.- Sistema de guardado &
+	28/06/2020 &
+	20/07/2020 & 
+	La aplicación debe poder guardar las piezas que se han encontrado además de la información básica del usuario.
+\\ 
+\hline 
+	7.1.- Programar sistema de guardado &
+	28/06/2020 &
+	20/07/2020 & 
+	...
+\\ 
+\hline 
+	7.2.- Pruebas de uso &
+	12/07/2020 &
+	20/07/2020 &
+	Se debe asegurar que el los datos del usuario serán persistente, estas pruebas se harán para evitar que los datos se pierdan en situaciones inusuales como apagado del dispositivo cierre inesperado y otros.
+\\
+\hline
+\end{longtable} 
+
