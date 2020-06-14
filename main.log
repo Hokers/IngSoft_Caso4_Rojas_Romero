@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  29 MAY 2020 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  14 JUN 2020 19:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -314,61 +314,80 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box48
 )
+("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
+y"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count189
+\LTcapwidth=\dimen144
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count190
+\LT@rows=\count191
+\c@LT@tables=\count192
+\c@LT@chunks=\count193
+\LT@p@ftn=\toks23
+)
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.
 sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip54
-\multirow@cntb=\count189
-\multirow@dima=\skip55
-\bigstrutjot=\dimen144
+\multirow@colwidth=\skip58
+\multirow@cntb=\count194
+\multirow@dima=\skip59
+\bigstrutjot=\dimen145
 )
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count190
-\l__pdf_internal_box=\box49
+\l__kernel_color_stack_int=\count195
+\l__pdf_internal_box=\box53
 ) (main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
-\scratchdimen=\dimen145
-\scratchbox=\box50
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count194
-\MPscratchDim=\dimen146
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count196
+\scratchdimen=\dimen146
+\scratchbox=\box54
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen147
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks25
 )
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 30.
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 34.
 
 ("C:\Users\Hachi\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -382,11 +401,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count197
+\c@section@level=\count268
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -394,14 +413,14 @@ LaTeX Info: Redefining \nameref on input line 30.
 <imgs/logo_utal.png, id=203, 225.84375pt x 225.84375pt>
 File: imgs/logo_utal.png Graphic file (type png)
 <use imgs/logo_utal.png>
-Package pdftex.def Info: imgs/logo_utal.png  used on input line 35.
+Package pdftex.def Info: imgs/logo_utal.png  used on input line 39.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 61.
  [1
 
 {C:/Users/Hachi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./imgs/logo
@@ -427,65 +446,60 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [7] (cap/Introduccion.tex [8]) [9]
-(cap/Planificacion_del_trabajo.tex [10] [11] [12]
-Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--155
+ [7] (cap/Introduccion.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+) [8]
+(cap/Planificacion_del_trabajo.tex [9] [10] [11]
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 157--157
 []|\OT1/cmr/m/n/12 Puntuacion| 
  []
 
 
-Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--155
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 157--157
 []|\OT1/cmr/m/n/12 Puntuacion| 
  []
 
 
-Overfull \hbox (4.52406pt too wide) in paragraph at lines 155--156
+Overfull \hbox (4.52406pt too wide) in paragraph at lines 157--158
 []|\OT1/cmr/m/n/12 Puntuacion| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \OT1/cmr/m/n/12 In-ter-nos a la
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 159--160
+Underfull \hbox (badness 8038) in paragraph at lines 161--162
 \OT1/cmr/m/n/12 Ex-ter-nos a la
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 164--165
+Underfull \hbox (badness 3601) in paragraph at lines 166--167
 []|\OT1/cmr/m/n/12 Outputs Ex-ter-
  []
 
 
-Overfull \hbox (10.64555pt too wide) in paragraph at lines 151--172
+Overfull \hbox (10.64555pt too wide) in paragraph at lines 153--174
 [][] 
  []
 
-[13] [14]
-Underfull \hbox (badness 1259) in paragraph at lines 234--234
+[12] [13]
+Underfull \hbox (badness 1259) in paragraph at lines 236--236
 []|\OT1/cmr/m/n/12 Meses de de-sa-
  []
 
 
-Overfull \hbox (0.62283pt too wide) in paragraph at lines 262--262
+Overfull \hbox (0.62283pt too wide) in paragraph at lines 266--266
 []|\OT1/cmr/m/n/12 Distribucion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]|\OT1/cmr/m/n/12 Distribucion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]|\OT1/cmr/m/n/12 Programador
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]|\OT1/cmr/m/n/12 Programador
+[]|\OT1/cmr/m/n/12 Distribucion
  []
 
 
@@ -510,17 +524,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 276--276
-[]|\OT1/cmr/m/n/12 Documentacion de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\OT1/cmr/m/n/12 Programador
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 278--278
 []|\OT1/cmr/m/n/12 Programador
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
+[]|\OT1/cmr/m/n/12 Documentacion de
  []
 
 
@@ -538,37 +552,488 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
 []|\OT1/cmr/m/n/12 Programador
  []
 
-[15]) [16] [17] (cap/Analisis.tex [18]) [19] (cap/Validacion.tex) [20] [21]
-(cap/Implementacion.tex) [22] (cap/Anexos.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
- [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+[]|\OT1/cmr/m/n/12 Programador
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[]|\OT1/cmr/m/n/12 Programador
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 296
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\OT1/cmr/m/n/12 pie-zas (mo-de-los
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 314--314
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 319--319
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 325--325
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 326--326
+[]|\OT1/cmr/m/n/12 01/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 331--331
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 332--332
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 333--335
+[]|\OT1/cmr/m/n/12 Creacion de ima-ge-nes apro-pia-das
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 336--336
+[]|\OT1/cmr/m/n/12 1.2.2.- Di-se~no de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 337--337
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 338--338
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 344--344
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 345--347
+\OT1/cmr/m/n/12 se~nadas fun-cio-nen co-rrec-ta-men-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]|\OT1/cmr/m/n/12 1.3.- In-ter-ac-cion
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 349--349
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 350--350
+[]|\OT1/cmr/m/n/12 12/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--354
+[]|\OT1/cmr/m/n/12 1.3.1.- Zoom
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 355--355
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 356--356
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 366--366
+[]|\OT1/cmr/m/n/12 1.3.3.- Vi-sua-li-zar
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 367--367
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 368--368
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 373--373
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 374--374
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 380--380
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 386--386
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 391--391
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 392--392
+[]|\OT1/cmr/m/n/12 21/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\OT1/cmr/m/n/12 2.1.- De-fi-nir el
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 396--396
+\OT1/cmr/m/n/12 men-sa-je a com-
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 397--397
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 398--398
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 403--403
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 404--404
+[]|\OT1/cmr/m/n/12 04/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\OT1/cmr/m/n/12 co-nec-cion con
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 410--410
+[]|\OT1/cmr/m/n/12 21/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 415--415
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 416--416
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 420--420
+[]|\OT1/cmr/m/n/12 3.1.- Di-se~nar in-
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 421--421
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 422--422
+[]|\OT1/cmr/m/n/12 21/06/2020| 
+ []
+
+[15]
+Underfull \vbox (badness 10000) detected at line 425
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 427--427
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 428--428
+[]|\OT1/cmr/m/n/12 21/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]|\OT1/cmr/m/n/12 4.1.- Pro-gra-mar
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 433--433
+[]|\OT1/cmr/m/n/12 21/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 434--434
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 438--438
+\OT1/cmr/m/n/12 feed-back de des-
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 439--439
+[]|\OT1/cmr/m/n/12 01/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 440--440
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 444--444
+[]|\OT1/cmr/m/n/12 4.3.- Prue-bas de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 445--445
+[]|\OT1/cmr/m/n/12 01/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 446--446
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 451--451
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 452--452
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 457--457
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 458--458
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 463--463
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 464--464
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 469--469
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 470--470
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
+[]|\OT1/cmr/m/n/12 6.1.- Di-se~nar
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 475--475
+[]|\OT1/cmr/m/n/12 01/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 476--476
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 481--481
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 482--482
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 486--486
+[]|\OT1/cmr/m/n/12 6.3.- Prue-bas de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 487--487
+[]|\OT1/cmr/m/n/12 07/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 488--488
+[]|\OT1/cmr/m/n/12 14/06/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
+[]|\OT1/cmr/m/n/12 7.- Sis-te-ma de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 493--493
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 494--494
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
+[]|\OT1/cmr/m/n/12 7.1.- Pro-gra-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 498--498
+\OT1/cmr/m/n/12 mar sis-te-ma de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 499--499
+[]|\OT1/cmr/m/n/12 28/06/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 500--500
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 504--504
+[]|\OT1/cmr/m/n/12 7.2.- Prue-bas de
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 505--505
+[]|\OT1/cmr/m/n/12 12/07/2020| 
+ []
+
+
+Overfull \hbox (2.38109pt too wide) in paragraph at lines 506--506
+[]|\OT1/cmr/m/n/12 20/07/2020| 
+ []
+
+[16] [17] [18] [19]) [20] (cap/Analisis.tex
+Underfull \vbox (badness 10000) detected at line 51
+ []
+
+[21] [22] [23]) [24] (cap/Validacion.tex) [25] [26] (cap/Implementacion.tex)
+[27] (cap/Anexos.tex [28])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+ [29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (main.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E7C8A138B4C3B13EFA383E9221DD914D;3815.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 7108 strings out of 480930
- 109927 string characters out of 2899762
- 394034 words of memory out of 3000000
- 22743 multiletter control sequences out of 15000+200000
+ 7221 strings out of 480930
+ 111148 string characters out of 2899762
+ 417018 words of memory out of 3000000
+ 22829 multiletter control sequences out of 15000+200000
  537894 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,10n,37p,800b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,37p,983b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Hachi\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1200.pk><C:/Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Hachi/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (23 pages, 115236 bytes).
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Hachi/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hachi
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r8.pfb>
+Output written on main.pdf (29 pages, 163670 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 455 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
