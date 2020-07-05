@@ -142,26 +142,62 @@ AT1.7 & XXXX & XXXX  \\
 \hline
 \end{longtable}
 
-\begin{longtable}{|c|p{4.7cm}|c|p{4.7cm}|c|}
+\subsubsection{Atributos por Función}
+
+\begin{longtable}{|c|p{4.7cm}|p{1.8cm}|p{4.7cm}|p{1.8cm}|}
 \hline 
 Ref\# & Función & Categoría (E/O/S) & Atributo & Categoría (E/R/D)\\ 
 \hline 
-RX.X & Escaneo codigo & E & Tiempo de respuesta del escaneo & R \\ 
+R1.1 & Escaneo codigo & E & Tiempo de respuesta del escaneo & R \\ 
 \hline 
-RX.X & Visualizar pieza 3D & E & Uso en móvil gama media & E \\ 
+R1.2 & Visualizar pieza 3D & E & Uso en móvil gama media & E \\ 
 \hline
-RX.X & Obtener información de las piezas & E & Información presentada de manera simple y legible & R \\ 
+R1.3 & Obtener información de las piezas & E & Información presentada de manera simple y legible & R \\ 
 \hline
-RX.X & Mostrar guia/tutorial de uso básico de app & E & Tutoriales simples y autoexplicativo & D \\ 
+R1.4 & Mostrar guia/tutorial de uso básico de app & E & Tutoriales simples y autoexplicativo & D \\ 
 \hline
 \end{longtable}
-
-\subsubsection{Atributos por Función}
 
 \newpage
 \subsection{Actores}
 
+\subsubsection{Clientes}
+Se establece como cliente, al organismo gubernamental que el cual está encargado de la historia y cultura patrimonial. Además de organismos privados quienes manejan museos abiertos a todo público quienes quieren fomentar el conocimiento cultural.
+
+\begin{enumerate}
+	\item Gobierno de chile / Ministerio de la cultura.
+	\item Museos interesados en aparecer en la app.
+\end{enumerate}
+
+\subsubsection{Usuarios}
+Se establece como usuario a toda persona que se encuentre actualmente cursando su segundo ciclo de enseñanza escolar correspondiente a finales de enseñanza básica y enseñanza media.
+
+\begin{enumerate}
+	\item Estudiantes enseñanza media.
+	\item Aficionados de museos.
+
+\end{enumerate}
+
 \subsection{Casos de Uso}
+
+\subsubsection{Primera interacción con la aplicación dentro de la sala de clases}
+
+{\textbf {Resumen:}}
+El usuario (alumno enseñanza media) luego de que su profesor le hiciera entrega de una guía con la imagen QR de uno de los museos, descarga la aplicación indicada en esta, al terminar de descargar la app, la inicia, activa la cámara y apunta a la imagen con ella, al hacer esto el usuario visualiza sobre la imagen como se dibuja la habitación de un museo y ve en las indicaciones en pantalla, este se da cuenta de que puede explorar en la habitación para encontrar las piezas que esté muestra las cuales están escondidas dentro de este entorno. Además prueba las diferentes acciones para desplazarse por el museo. Luego al encontrar una pieza el usuario presiona sobre ella y descubre que ha encontrado un objeto, el cual es añadido a su colección de piezas, el usuario entusiasmado voltea a mostrarle a sus compañeros el descubrimiento.
+
+{\textbf {Actores:}}
+Alumno enseñanza media, Profesor.
+
+{\textbf {Propósito:}}
+Introducir al alumno el aprendizaje del museo local en cuestión, el cual se encuentra presente en la guía entregada por el profesor.
+
+{\textbf {Tipo:}}
+Primario.
+
+{\textbf {Referencias cruzadas:}}
+R 1.1, R 1.2, R 1.3, R 2.1, R 2.2, R 2.7, R 3.4, R 5.9.
+
+
 \subsubsection{Caso de Uso Esencial}
 \subsubsection{Diagrama de Caso de Uso}
 \subsubsection{Contrato}
