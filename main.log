@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  14 JUN 2020 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  7 JUL 2020 20:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -995,14 +995,14 @@ Overfull \hbox (2.38109pt too wide) in paragraph at lines 506--506
 []|\OT1/cmr/m/n/12 20/07/2020| 
  []
 
-[16] [17] [18] [19]) [20] (cap/Analisis.tex
-Underfull \vbox (badness 10000) detected at line 51
+[16] [17] [18] [19]) [20] (cap/Analisis.tex [21]
+Underfull \vbox (badness 10000) detected at line 67
  []
 
-[21] [22] [23]) [24] (cap/Validacion.tex) [25] [26] (cap/Implementacion.tex)
-[27] (cap/Anexos.tex [28])
+[22] [23] [24]) [25] (cap/Validacion.tex) [26] [27] (cap/Implementacion.tex)
+[28] (cap/Anexos.tex [29])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
- [29]
+ [30]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (main.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -1015,10 +1015,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 7221 strings out of 480930
- 111148 string characters out of 2899762
+ 7220 strings out of 480930
+ 111132 string characters out of 2899762
  417018 words of memory out of 3000000
- 22829 multiletter control sequences out of 15000+200000
+ 22827 multiletter control sequences out of 15000+200000
  537894 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,10n,37p,983b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1031,9 +1031,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hachi
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Users/Hachi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r8.pfb>
-Output written on main.pdf (29 pages, 163670 bytes).
+Output written on main.pdf (30 pages, 165648 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
