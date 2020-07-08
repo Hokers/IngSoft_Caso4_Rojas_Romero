@@ -215,8 +215,88 @@ Se establece como usuario a toda persona que se encuentre actualmente cursando s
 
 \subsubsection{Contratos} %%apartado de contratos
 
+\paragraph{Contrato 1} 
+\begin{itemize}
+\item Nombre: Escanear código QR
+\item Responsabilidades: El sistema debe reconocer el código QR escaneado y obtener el museo referenciado a ese código QR, proyectando así el museo en la aplicación.
+\item Tipo (concepto, clase de software, sistema): 
+\item Referencias cruzadas: R 1.1, R 1.2
+\item Caso de uso: 1.1 - 1.8
+\item Notas: Nulo
+\item Excepciones: Nulo
+\item Salida: Nulo
+\item Precondiciones: El código debe estar correctamente referenciado al museo en cuestión.
+\item Poscondiciones: El museo debe ser el correspondiente al código QR y debe visualizarse en la aplicación.
+\end{itemize}
+
+\paragraph{Contrato 2} 
+\begin{itemize}
+\item Nombre: Obtener una pieza de museo y su info.
+\item Responsabilidades: Obtener la pieza en cuestion, mostrar la información correspondiente y manejar la interacción con la pieza correctamente.
+\item Tipo (concepto, clase de software, sistema): Sistema
+\item Referencias cruzadas: R 2.1 - R 2.8, R 6.1 - R 6.8
+\item Caso de uso: 1.1 - 1.8
+\item Notas: Nulo
+\item Excepciones: Nulo
+\item Salida: Nulo
+\item Precondiciones: La pieza debe estar correctamente referenciada a la información, a su vez debe mostrar el modelo correspondiente en el panel de información, en el menú de piezas y en el panel de interacción
+\item Poscondiciones: El modelo debe ser interactuable, la información debe ser mostrada de manera legible y los botones de los paneles deben tener un funcionamiento establecido. 
+\end{itemize}
+
+\paragraph{Contrato 3} 
+\begin{itemize}
+\item Nombre: Obtener logro y su info.
+\item Responsabilidades: Mostrar el logro obtenido y la información correspondiente.
+\item Tipo (concepto, clase de software, sistema): Sistema
+\item Referencias cruzadas: R 7.1 - R 7.6
+\item Caso de uso: 1.6, 1.8
+\item Notas: Nulo
+\item Excepciones: Nulo
+\item Salida: Nulo
+\item Precondiciones:  El logro debe estar correctamente referenciada a la información, a su vez debe mostrar la información correspondiente a ese logro, 
+\item Poscondiciones: En el menú de logros debe aparecen los logros completados y sin completar.
+\end{itemize}
+
+\paragraph{Contrato 4} 
+\begin{itemize}
+\item Nombre: Mostrar instrucciones
+\item Responsabilidades: Las instrucciones deben mostrarse de manera correcta.
+\item Tipo (concepto, clase de software, sistema): Sistema.
+\item Referencias cruzadas: R 3.1 - R 3.4
+\item Caso de uso: 1.1 - 1.8
+\item Notas: Nulo
+\item Excepciones: Nulo
+\item Salida: Nulo
+\item Precondiciones: Las instrucciones deben estar escritas correctamente y referenciadas al tutorial pertinente.
+\item Poscondiciones: Las instrucciones deben ser mostradas de manera clara.
+\end{itemize}
 
 \subsection{Modelo de Dominio}
+Un modelo de dominio en la resolución de problemas e ingeniería de software, es un modelo conceptual de todos los temas relacionados con un problema específico. Dentro de esta sección se analizarán las entidades reconocidas en los casos de uso para dar paso a la creación del Modelo de Dominio.
+
 \subsubsection{Entidades Reconocidas}
+Las entidades que fueron reconocidas en base al análisis de los casos de uso son:
+
+\begin{itemize}
+\item Pieza
+\item Museo
+\item Logro/Trofeo
+\item Usuario
+\item Menú
+\item Colección
+\item Visualizador
+\item Tutorial
+\item Sistema
+\end{itemize}
+
+
 \subsubsection{Modelo de Dominio}
+En base a las entidades se realizo la asociación entre cada una y se genero el modelo de dominio.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/ModeloDeDominio.png}}
+\caption{Modelo De Dominio}
+\label{ModeloDom}
+\end{figure}
+
 \subsubsection{Matriz de Rastreabilidad}
