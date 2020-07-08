@@ -1,100 +1,100 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Introducción}{12}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Propósito}{12}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Descripción breve del problema}{12}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Planificación del Trabajo}{13}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Descripción del grupo de trabajo}{13}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Estimación de esfuerzo}{13}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Complejidad de Archivos}{14}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Complejidad de las funcionalidades, cálculo de FP, grados de influencia, y otros cálculos}{15}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}C.T Jones / COCOMO II}{17}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Asignación de recursos}{19}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Planificación temporal de actividades}{20}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Análisis}{25}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Contexto}{25}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Descripción General}{25}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Descripción de Clientes y Usuarios:}{25}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Especificación de Requerimientos}{26}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Funciones del Sistema}{26}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Atributos del Sistema}{28}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Atributos por Función}{29}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Actores}{30}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Clientes}{30}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Usuarios}{30}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Casos de Uso}{30}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Primera interacción con la aplicación dentro de la sala de clases}{31}{subsubsection.3.4.1}%
-\contentsline {paragraph}{\numberline {3.4.1.1}Caso de Uso Esencial}{31}{paragraph.3.4.1.1}%
-\contentsline {paragraph}{\numberline {3.4.1.2}Diagrama de Caso de Uso}{33}{paragraph.3.4.1.2}%
-\contentsline {paragraph}{\numberline {3.4.1.3}Modelo Conceptual}{33}{paragraph.3.4.1.3}%
-\contentsline {paragraph}{\numberline {3.4.1.4}Diagrama de Secuencia o Colaboración}{34}{paragraph.3.4.1.4}%
-\contentsline {subsubsection}{\numberline {3.4.2}Priorización}{34}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Uso de la aplicacion por personas sin español como idioma nativo}{35}{subsubsection.3.4.3}%
-\contentsline {paragraph}{\numberline {3.4.3.1}Caso de Uso Esencial}{35}{paragraph.3.4.3.1}%
-\contentsline {paragraph}{\numberline {3.4.3.2}Diagrama de Caso de Uso}{36}{paragraph.3.4.3.2}%
-\contentsline {subsubsection}{\numberline {3.4.4}Modelo Conceptual}{37}{subsubsection.3.4.4}%
-\contentsline {paragraph}{\numberline {3.4.4.1}Diagrama de Secuencia o Colaboración}{37}{paragraph.3.4.4.1}%
-\contentsline {paragraph}{\numberline {3.4.4.2}Priorización}{37}{paragraph.3.4.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.5}situacion de pompetitividad entre jovenes}{38}{subsubsection.3.4.5}%
-\contentsline {paragraph}{\numberline {3.4.5.1}Caso de Uso Esencial}{38}{paragraph.3.4.5.1}%
-\contentsline {paragraph}{\numberline {3.4.5.2}Diagrama de Caso de Uso}{39}{paragraph.3.4.5.2}%
-\contentsline {paragraph}{\numberline {3.4.5.3}Modelo Conceptual}{39}{paragraph.3.4.5.3}%
-\contentsline {paragraph}{\numberline {3.4.5.4}Diagrama de Secuencia o Colaboración}{40}{paragraph.3.4.5.4}%
-\contentsline {paragraph}{\numberline {3.4.5.5}Priorización}{40}{paragraph.3.4.5.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Presentacion de estudiente para su curso}{41}{subsubsection.3.4.6}%
-\contentsline {paragraph}{\numberline {3.4.6.1}Caso de Uso Esencial}{41}{paragraph.3.4.6.1}%
-\contentsline {paragraph}{\numberline {3.4.6.2}Diagrama de Caso de Uso}{42}{paragraph.3.4.6.2}%
-\contentsline {paragraph}{\numberline {3.4.6.3}Modelo Conceptual}{43}{paragraph.3.4.6.3}%
-\contentsline {paragraph}{\numberline {3.4.6.4}Diagrama de Secuencia o Colaboración}{43}{paragraph.3.4.6.4}%
-\contentsline {paragraph}{\numberline {3.4.6.5}Priorización}{44}{paragraph.3.4.6.5}%
-\contentsline {subsubsection}{\numberline {3.4.7}Excursión de grupo escolar}{45}{subsubsection.3.4.7}%
-\contentsline {paragraph}{\numberline {3.4.7.1}Caso de Uso Esencial}{45}{paragraph.3.4.7.1}%
-\contentsline {paragraph}{\numberline {3.4.7.2}Diagrama de Caso de Uso}{46}{paragraph.3.4.7.2}%
-\contentsline {paragraph}{\numberline {3.4.7.3}Modelo Conceptual}{46}{paragraph.3.4.7.3}%
-\contentsline {paragraph}{\numberline {3.4.7.4}Diagrama de Secuencia o Colaboración}{47}{paragraph.3.4.7.4}%
-\contentsline {paragraph}{\numberline {3.4.7.5}Priorización}{47}{paragraph.3.4.7.5}%
-\contentsline {subsubsection}{\numberline {3.4.8}Uso por aficionado de los museos}{48}{subsubsection.3.4.8}%
-\contentsline {paragraph}{\numberline {3.4.8.1}Caso de Uso Esencial}{48}{paragraph.3.4.8.1}%
-\contentsline {paragraph}{\numberline {3.4.8.2}Diagrama de Caso de Uso}{49}{paragraph.3.4.8.2}%
-\contentsline {paragraph}{\numberline {3.4.8.3}Modelo Conceptual}{50}{paragraph.3.4.8.3}%
-\contentsline {paragraph}{\numberline {3.4.8.4}Diagrama de Secuencia o Colaboración}{50}{paragraph.3.4.8.4}%
-\contentsline {paragraph}{\numberline {3.4.8.5}Priorización}{51}{paragraph.3.4.8.5}%
-\contentsline {subsubsection}{\numberline {3.4.9}Uso de la aplicacion por un estudiante y su familia}{52}{subsubsection.3.4.9}%
-\contentsline {paragraph}{\numberline {3.4.9.1}Caso de Uso Esencial}{52}{paragraph.3.4.9.1}%
-\contentsline {paragraph}{\numberline {3.4.9.2}Diagrama de Caso de Uso}{53}{paragraph.3.4.9.2}%
-\contentsline {paragraph}{\numberline {3.4.9.3}Modelo Conceptual}{54}{paragraph.3.4.9.3}%
-\contentsline {paragraph}{\numberline {3.4.9.4}Diagrama de Secuencia o Colaboración}{54}{paragraph.3.4.9.4}%
-\contentsline {paragraph}{\numberline {3.4.9.5}Priorización}{55}{paragraph.3.4.9.5}%
-\contentsline {subsubsection}{\numberline {3.4.10}Preparación de clase por parte de un profesor}{56}{subsubsection.3.4.10}%
-\contentsline {paragraph}{\numberline {3.4.10.1}Caso de Uso Esencial}{56}{paragraph.3.4.10.1}%
-\contentsline {paragraph}{\numberline {3.4.10.2}Diagrama de Caso de Uso}{57}{paragraph.3.4.10.2}%
-\contentsline {paragraph}{\numberline {3.4.10.3}Modelo Conceptual}{58}{paragraph.3.4.10.3}%
-\contentsline {paragraph}{\numberline {3.4.10.4}Diagrama de Secuencia o Colaboración}{58}{paragraph.3.4.10.4}%
-\contentsline {paragraph}{\numberline {3.4.10.5}Priorización}{58}{paragraph.3.4.10.5}%
-\contentsline {subsubsection}{\numberline {3.4.11}Contratos}{59}{subsubsection.3.4.11}%
-\contentsline {paragraph}{\numberline {3.4.11.1}Contrato 1}{59}{paragraph.3.4.11.1}%
-\contentsline {paragraph}{\numberline {3.4.11.2}Contrato 2}{59}{paragraph.3.4.11.2}%
-\contentsline {paragraph}{\numberline {3.4.11.3}Contrato 3}{60}{paragraph.3.4.11.3}%
-\contentsline {paragraph}{\numberline {3.4.11.4}Contrato 4}{61}{paragraph.3.4.11.4}%
-\contentsline {subsection}{\numberline {3.5}Modelo de Dominio}{61}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Entidades Reconocidas}{61}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Modelo de Dominio}{62}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Matriz de Rastreabilidad}{63}{subsubsection.3.5.3}%
-\contentsline {section}{\numberline {4}Validación}{64}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Prototipo de validación funcional}{64}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Diseño}{65}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Derivación del Modelo de Software}{65}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Modelo de software inicial}{65}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Diagramas de Clases}{65}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Diagramas de Interacción}{65}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Diagramas de Estados}{65}{subsubsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.2}Refinamientos}{65}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Lugar de Refinamiento}{65}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Para cada Lugar}{65}{subsubsection.5.2.2}%
-\contentsline {paragraph}{\numberline {5.2.2.1}Refinamientos considerados}{65}{paragraph.5.2.2.1}%
-\contentsline {paragraph}{\numberline {5.2.2.2}Selección y descripción de una opción}{65}{paragraph.5.2.2.2}%
-\contentsline {section}{\numberline {6}Implementación}{66}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Código fuente completo (parcial)}{66}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Modelo de implementación}{66}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Dependencias}{66}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Anexos}{67}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Glosario}{67}{subsection.7.1}%
+\contentsline {section}{\numberline {1}Introducción}{13}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Propósito}{13}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Descripción breve del problema}{13}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Planificación del Trabajo}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Descripción del grupo de trabajo}{14}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Estimación de esfuerzo}{14}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Complejidad de Archivos}{15}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Complejidad de las funcionalidades, cálculo de FP, grados de influencia, y otros cálculos}{16}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}C.T Jones / COCOMO II}{19}{subsubsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.3}Asignación de recursos}{21}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Planificación temporal de actividades}{22}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Análisis}{27}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Contexto}{27}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Descripción General}{27}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Descripción de Clientes y Usuarios:}{27}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Especificación de Requerimientos}{28}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Funciones del Sistema}{28}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Atributos del Sistema}{30}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Atributos por Función}{31}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Actores}{32}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Clientes}{32}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Usuarios}{32}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Casos de Uso}{32}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Primera interacción con la aplicación dentro de la sala de clases}{33}{subsubsection.3.4.1}%
+\contentsline {paragraph}{\numberline {3.4.1.1}Caso de Uso Esencial}{33}{paragraph.3.4.1.1}%
+\contentsline {paragraph}{\numberline {3.4.1.2}Diagrama de Caso de Uso}{35}{paragraph.3.4.1.2}%
+\contentsline {paragraph}{\numberline {3.4.1.3}Modelo Conceptual}{35}{paragraph.3.4.1.3}%
+\contentsline {paragraph}{\numberline {3.4.1.4}Diagrama de Secuencia o Colaboración}{36}{paragraph.3.4.1.4}%
+\contentsline {subsubsection}{\numberline {3.4.2}Priorización}{36}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Uso de la aplicacion por personas sin español como idioma nativo}{37}{subsubsection.3.4.3}%
+\contentsline {paragraph}{\numberline {3.4.3.1}Caso de Uso Esencial}{37}{paragraph.3.4.3.1}%
+\contentsline {paragraph}{\numberline {3.4.3.2}Diagrama de Caso de Uso}{38}{paragraph.3.4.3.2}%
+\contentsline {subsubsection}{\numberline {3.4.4}Modelo Conceptual}{39}{subsubsection.3.4.4}%
+\contentsline {paragraph}{\numberline {3.4.4.1}Diagrama de Secuencia o Colaboración}{39}{paragraph.3.4.4.1}%
+\contentsline {paragraph}{\numberline {3.4.4.2}Priorización}{39}{paragraph.3.4.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.5}situacion de pompetitividad entre jovenes}{40}{subsubsection.3.4.5}%
+\contentsline {paragraph}{\numberline {3.4.5.1}Caso de Uso Esencial}{40}{paragraph.3.4.5.1}%
+\contentsline {paragraph}{\numberline {3.4.5.2}Diagrama de Caso de Uso}{41}{paragraph.3.4.5.2}%
+\contentsline {paragraph}{\numberline {3.4.5.3}Modelo Conceptual}{41}{paragraph.3.4.5.3}%
+\contentsline {paragraph}{\numberline {3.4.5.4}Diagrama de Secuencia o Colaboración}{42}{paragraph.3.4.5.4}%
+\contentsline {paragraph}{\numberline {3.4.5.5}Priorización}{42}{paragraph.3.4.5.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Presentacion de estudiente para su curso}{43}{subsubsection.3.4.6}%
+\contentsline {paragraph}{\numberline {3.4.6.1}Caso de Uso Esencial}{43}{paragraph.3.4.6.1}%
+\contentsline {paragraph}{\numberline {3.4.6.2}Diagrama de Caso de Uso}{44}{paragraph.3.4.6.2}%
+\contentsline {paragraph}{\numberline {3.4.6.3}Modelo Conceptual}{45}{paragraph.3.4.6.3}%
+\contentsline {paragraph}{\numberline {3.4.6.4}Diagrama de Secuencia o Colaboración}{45}{paragraph.3.4.6.4}%
+\contentsline {paragraph}{\numberline {3.4.6.5}Priorización}{46}{paragraph.3.4.6.5}%
+\contentsline {subsubsection}{\numberline {3.4.7}Excursión de grupo escolar}{47}{subsubsection.3.4.7}%
+\contentsline {paragraph}{\numberline {3.4.7.1}Caso de Uso Esencial}{47}{paragraph.3.4.7.1}%
+\contentsline {paragraph}{\numberline {3.4.7.2}Diagrama de Caso de Uso}{48}{paragraph.3.4.7.2}%
+\contentsline {paragraph}{\numberline {3.4.7.3}Modelo Conceptual}{48}{paragraph.3.4.7.3}%
+\contentsline {paragraph}{\numberline {3.4.7.4}Diagrama de Secuencia o Colaboración}{49}{paragraph.3.4.7.4}%
+\contentsline {paragraph}{\numberline {3.4.7.5}Priorización}{49}{paragraph.3.4.7.5}%
+\contentsline {subsubsection}{\numberline {3.4.8}Uso por aficionado de los museos}{50}{subsubsection.3.4.8}%
+\contentsline {paragraph}{\numberline {3.4.8.1}Caso de Uso Esencial}{50}{paragraph.3.4.8.1}%
+\contentsline {paragraph}{\numberline {3.4.8.2}Diagrama de Caso de Uso}{51}{paragraph.3.4.8.2}%
+\contentsline {paragraph}{\numberline {3.4.8.3}Modelo Conceptual}{52}{paragraph.3.4.8.3}%
+\contentsline {paragraph}{\numberline {3.4.8.4}Diagrama de Secuencia o Colaboración}{52}{paragraph.3.4.8.4}%
+\contentsline {paragraph}{\numberline {3.4.8.5}Priorización}{53}{paragraph.3.4.8.5}%
+\contentsline {subsubsection}{\numberline {3.4.9}Uso de la aplicacion por un estudiante y su familia}{54}{subsubsection.3.4.9}%
+\contentsline {paragraph}{\numberline {3.4.9.1}Caso de Uso Esencial}{54}{paragraph.3.4.9.1}%
+\contentsline {paragraph}{\numberline {3.4.9.2}Diagrama de Caso de Uso}{55}{paragraph.3.4.9.2}%
+\contentsline {paragraph}{\numberline {3.4.9.3}Modelo Conceptual}{56}{paragraph.3.4.9.3}%
+\contentsline {paragraph}{\numberline {3.4.9.4}Diagrama de Secuencia o Colaboración}{56}{paragraph.3.4.9.4}%
+\contentsline {paragraph}{\numberline {3.4.9.5}Priorización}{57}{paragraph.3.4.9.5}%
+\contentsline {subsubsection}{\numberline {3.4.10}Preparación de clase por parte de un profesor}{58}{subsubsection.3.4.10}%
+\contentsline {paragraph}{\numberline {3.4.10.1}Caso de Uso Esencial}{58}{paragraph.3.4.10.1}%
+\contentsline {paragraph}{\numberline {3.4.10.2}Diagrama de Caso de Uso}{59}{paragraph.3.4.10.2}%
+\contentsline {paragraph}{\numberline {3.4.10.3}Modelo Conceptual}{60}{paragraph.3.4.10.3}%
+\contentsline {paragraph}{\numberline {3.4.10.4}Diagrama de Secuencia o Colaboración}{60}{paragraph.3.4.10.4}%
+\contentsline {paragraph}{\numberline {3.4.10.5}Priorización}{60}{paragraph.3.4.10.5}%
+\contentsline {subsubsection}{\numberline {3.4.11}Contratos}{61}{subsubsection.3.4.11}%
+\contentsline {paragraph}{\numberline {3.4.11.1}Contrato 1}{61}{paragraph.3.4.11.1}%
+\contentsline {paragraph}{\numberline {3.4.11.2}Contrato 2}{61}{paragraph.3.4.11.2}%
+\contentsline {paragraph}{\numberline {3.4.11.3}Contrato 3}{62}{paragraph.3.4.11.3}%
+\contentsline {paragraph}{\numberline {3.4.11.4}Contrato 4}{63}{paragraph.3.4.11.4}%
+\contentsline {subsection}{\numberline {3.5}Modelo de Dominio}{63}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Entidades Reconocidas}{63}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Modelo de Dominio}{64}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Matriz de Rastreabilidad}{65}{subsubsection.3.5.3}%
+\contentsline {section}{\numberline {4}Validación}{66}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Prototipo de validación funcional}{66}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Diseño}{67}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Derivación del Modelo de Software}{67}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Modelo de software inicial}{67}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Diagramas de Clases}{67}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Diagramas de Interacción}{67}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Diagramas de Estados}{67}{subsubsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.2}Refinamientos}{67}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Lugar de Refinamiento}{67}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Para cada Lugar}{67}{subsubsection.5.2.2}%
+\contentsline {paragraph}{\numberline {5.2.2.1}Refinamientos considerados}{67}{paragraph.5.2.2.1}%
+\contentsline {paragraph}{\numberline {5.2.2.2}Selección y descripción de una opción}{67}{paragraph.5.2.2.2}%
+\contentsline {section}{\numberline {6}Implementación}{68}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Código fuente completo (parcial)}{68}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Modelo de implementación}{68}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Dependencias}{68}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Anexos}{69}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Glosario}{69}{subsection.7.1}%
