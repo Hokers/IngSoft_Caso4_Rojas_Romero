@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Complejidad de Archivos}{14}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Complejidad de las funcionalidades, cálculo de FP, grados de influencia, y otros cálculos}{15}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}C.T Jones / COCOMO II}{17}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Asignación de recursos}{18}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Asignación de recursos}{19}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Planificación temporal de actividades}{20}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Análisis}{25}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Contexto}{25}{subsection.3.1}%

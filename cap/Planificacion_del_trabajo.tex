@@ -3,7 +3,7 @@
 \subsection{Descripción del grupo de trabajo}
 El grupo para este proyecto esta conformado por:
 
-\begin{tabular}{|c|c|c|}
+\begin{longtable}{|c|c|c|}
 \hline 
 Nombre & Alias & Capacidades de profesión \\ 
 \hline 
@@ -11,7 +11,7 @@ José Rojas & JR & Programador Junior, Artista, Diseñador de Videojuegos \\
 \hline 
 Nicolás Romero & NR & Programador Junior, Artista, Diseñador de Videojuegos \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
 Descripción del general del trabajo de JR: Se encargará de la gestión del proyecto, el
 plan del proyecto, trabajara en conjunto con su compañero para hacer los requerimientos,
@@ -29,7 +29,7 @@ En la siguiente sección se especifica la estimación de esfuerzo para la realiz
 \subsubsection{Complejidad de Archivos}
 La siguiente tabla muestra las diferentes funciones necesaria para el correcto funcionamiento del software.
 
-\begin{tabular}{|p{5cm}|p{8cm}|}
+\begin{longtable}{|p{5cm}|p{8cm}|}
 \hline 
 Tipos de parámetros & Nombres \\ 
 \hline 
@@ -49,9 +49,9 @@ EIF (Ficheros de interfaces externas) & Obtener piezas historicas compartidas en
 RRSS.
  \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
-\begin{tabular}{|p{5cm}|p{8cm}|}
+\begin{longtable}{|p{5cm}|p{8cm}|}
 \hline 
 Objetos & Datos necesarios \\ 
 \hline 
@@ -65,12 +65,12 @@ Trofeo & Tipo de Trofeo, Nombre de trofeo, detalles de trofeo. \\
 Museo & Nombre, ubicación, fecha de construcción, lista de piezas
 historicas. \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
 \subsubsection{Complejidad de las funcionalidades, cálculo de FP, grados de influencia, y otros cálculos}
 En las siguientes tabla se muestra la complejidad de las diferentes funcionalidades ligadas al software.
 
-\begin{tabular}{|c|c|c|c|}
+\begin{longtable}{|c|c|c|c|}
 \hline 
 Entradas Externas EI &   &   &   \\ 
 \hline 
@@ -84,9 +84,9 @@ Obtener Trofeo & 3 & 1 & Low \\
 \hline 
 Escanear Codigo QR del Muse & 3 & 1 & Low \\ 
 \hline 
-\end{tabular}
+\end{longtable}
 
-\begin{tabular}{|c|c|c|c|}
+\begin{longtable}{|c|c|c|c|}
  \hline 
  Salidas Externas EO &   &   &   \\ 
  \hline 
@@ -98,9 +98,9 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
  \hline 
  Biblioteca de trofeos obtenidos. & 3 & 1 & Low \\ 
  \hline 
- \end{tabular}
+ \end{longtable}
  
- \begin{tabular}{|c|c|c|c|}
+ \begin{longtable}{|c|c|c|c|}
   \hline 
   Consultas Externas EQ &  &  &  \\ 
   \hline 
@@ -122,9 +122,9 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
   \hline 
   Ver info. de Trofe & 2 & 1 & Low \\ 
   \hline 
-  \end{tabular} 
+  \end{longtable} 
   
-  \begin{tabular}{|c|c|c|c|}
+  \begin{longtable}{|c|c|c|c|}
    \hline 
    Ficheros lo´gicos internos ILF &  &  &  \\ 
    \hline 
@@ -136,9 +136,9 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    \hline 
    Datos de Museos & 4 & 2 & Low \\ 
    \hline 
-   \end{tabular}  
+   \end{longtable}  
    
-   \begin{tabular}{|c|c|c|c|}
+   \begin{longtable}{|c|c|c|c|}
    \hline 
    EIF (Ficheros de interfaces externas) &  &  &  \\ 
    \hline 
@@ -146,11 +146,11 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    \hline 
    Obtener piezas historicas compartidas en RRSS. & 3 & 2 & Low \\ 
    \hline 
-   \end{tabular} 
+   \end{longtable} 
    
    Ahora podemos calcular los puntos de función sin ajustar, TUFP.
    
-   \begin{tabular}{|p{3cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|}
+   \begin{longtable}{|p{3cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{1.9cm}|}
    \hline 
      & \multicolumn{2}{c|}{Bajo} & \multicolumn{2}{c|}{Medio} & \multicolumn{2}{c|}{Alto} \\ 
    \hline 
@@ -170,7 +170,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    \hline 
      &   & 71 &   & 0 &   & 0 \\ 
    \hline 
-   \end{tabular} 
+   \end{longtable} 
    
    El total de TUFP = 53 , cálculo y tabla generada a partir de la planilla de cálculo.
    
@@ -178,7 +178,7 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    
    Calculamos los grados de influencia a partir de la planilla de calculo y podemos obtener lo siguiente:
    
-   \begin{tabular}{|c|c|}
+   \begin{longtable}{|c|c|}
    \hline 
    TOTAL GRADOS DE INFLUENCIA & 11 \\ 
    \hline 
@@ -186,19 +186,19 @@ Escanear Codigo QR del Muse & 3 & 1 & Low \\
    \hline 
    VAF & 0,76 \\ 
    \hline 
-   \end{tabular} 
+   \end{longtable} 
    
 \subsubsection{C.T Jones / COCOMO II}
 
-\begin{tabular}{|c|c|}
+\begin{longtable}{|c|c|}
 \hline 
 FP & 53 \\ 
 \hline 
 Loc en POO  & 20 \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
-\begin{tabular}{|p{8cm}|c|}
+\begin{longtable}{|p{8cm}|c|}
 \hline 
 C.T Jones &   \\ 
 \hline 
@@ -213,11 +213,11 @@ Estimación del esfuerzo en personas/mes  & 1,729398024 \\
 Estimación de esfuerzo en horas hombre (160 horas x mes) 160 horas, ya que
 , se considera 1 jornada diaria de 8 horas & 276,7036838 \\ 
 \hline 
-\end{tabular} 
+\end{longtable} 
 
 Estimación de esfuerzo en base a C.T. Jones 1.996 Software Estimating Rules of Thumb” y B. Boehm COCOMO II en fase de Early Design
 
-\begin{tabular}{|c|c|}
+\begin{longtable}{|c|c|}
 \hline 
 COCOMO II &   \\ 
 \hline 
@@ -225,11 +225,11 @@ Métrica  & Cálculo \\
 \hline 
 Conversión de FP a LOC. & 1060 \\ 
 \hline 
-\end{tabular}
+\end{longtable}
 
 Calculo de esfuerzo con COCOMO II con entrada de 1260 LOC y con factores de escala nominales.
 
-\begin{tabular}{|p{3cm}|c|c|c|}
+\begin{longtable}{|p{3cm}|c|c|c|}
  \hline 
  Estimación & Optimista & Conservador & Pesimista \\ 
  \hline 
@@ -241,13 +241,13 @@ Calculo de esfuerzo con COCOMO II con entrada de 1260 LOC y con factores de esca
  \hline 
  Esfuerzo en horas hombre (160 horas x mes) & 294,4 & 499,2 & 755,2 \\ 
  \hline 
- \end{tabular}
+ \end{longtable}
  
-\begin{tabular}{|c|c|}
+\begin{longtable}{|c|c|}
   \hline 
   LOC Equivalentes & 1060 \\ 
   \hline 
-\end{tabular}
+\end{longtable}
 
 Estimación del costo monetario en base al esfuerzo en HH conservador. Definiremos 2 perfiles:
 
