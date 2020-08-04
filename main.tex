@@ -105,9 +105,151 @@ Nicolás Romero & \textbf{\emph{Ayudante:}}\\
 
 \subsection{Derivación del Modelo de Software}
 \subsubsection{Modelo de software inicial}
+La aplicación “Museo en casa” a sido diseñada como una app monolítica, es decir que no requiere de una conexión externa para su funcionamiento, a pesar de esto se puede dividir a presentación de 3 capas debido a su funcionamiento interno con características similares.
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Modelo3Capas.png}}
+\caption{Modelo de 3 Capas}
+\label{fig_3Capas}
+\end{figure}
+
+Capa presentación:
+
+GameInfoView: Este visualizador permite mostrar el menú de visualización y es el contenedor donde la información es mostrada al usuario, este se utiliza para mostrar información de las piezas, museos y logros correspondientes.
+TutorialView: Este módulo se encarga de mostrar toda la información correspondiente del tutorial, además de guiar al usuario para poder realizar las primeras acciones en la app.
+Museum Piece Handler: Este módulo se encarga de la manipulación completa de la pieza de museo seleccionada, permite el zoom in/out, rotación, movimiento, etc.
+Gameplay Manager:  Este manager se encarga de el flujo correcto del juego, las acciones del usuario, la información que será mostrada, el funcionamiento de las piezas dentro del museo, la notificación de los logros obtenidos y el correcto cierre de los menús.
+
+Capa dominio:
+Search Manager: Se encarga de buscar las piezas, logros y museos que se encuentran almacenados en la base de datos de la app.
+Info Manager: Maneja la información correspondiente y se asegura de que esta sea correcta para  los logros, piezas y museos los cuales serán enviados al Gameplay Manager, para ser mostrados al usuario.
+Info User Manager: Maneja la información obtenida en el momento que se registra el usuario y la envía a la base de datos de los usuarios de la app.
+Vuforia Connect: El sistema se conecta a la Vuforia QR DB que contiene los códigos QR para la carga de información correspondiente.
+
+Capa base de datos:
+
+Info Base DB: Esta base de datos almacena la información correspondiente a los logros, piezas y museos, estos datos serán tomados por el Info Manager para su uso.
+Vuforia QR DB: Esta base de datos almacena los códigos QR de cada museo registrado en la app. 
+
+
 \subsubsection{Diagramas de Clases}
 \subsubsection{Diagramas de Interacción}
+
+Los siguientes diagramas muestran objetos del sistema, así como los mensajes que se pasan entre ellos dentro del caso de uso.
+
+
+\paragraph{Diagrama de Interacción Caso 1.1}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_1.png}}
+\caption{Diagrama de Interacción Caso 1.1}
+\label{fig_I_1}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.2}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_2.png}}
+\caption{Diagrama de Interacción Caso 1.2}
+\label{fig_I_2}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.3}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_3.png}}
+\caption{Diagrama de Interacción Caso 1.3}
+\label{fig_I_3}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.4}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_4.png}}
+\caption{Diagrama de Interacción Caso 1.4}
+\label{fig_I_4}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.5}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_5.png}}
+\caption{Diagrama de Interacción Caso 1.5}
+\label{fig_I_5}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.6}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_6.png}}
+\caption{Diagrama de Interacción Caso 1.6}
+\label{fig_I_6}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.7}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_7.png}}
+\caption{Diagrama de Interacción Caso 1.7}
+\label{fig_I_7}
+\end{figure}
+
+\paragraph{Diagrama de Interacción Caso 1.8}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Interaccion_8.png}}
+\caption{Diagrama de Interacción Caso 1.8}
+\label{fig_I_8}
+\end{figure}
+
 \subsubsection{Diagramas de Estados}
+Los diagramas de estado muestran el conjunto de estados por los cuales pasa un objeto durante su vida en una aplicación en respuesta a eventos. En este caso se muestra los estados que que se establecen los casos de uso en cuestión.
+
+\paragraph{Diagrama de Estado Caso 1.1}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Estados_1_1.png}}
+\caption{Diagrama de Estado 1 Caso 1.1}
+\label{fig_E_1}
+\end{figure}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Estados_1_2.png}}
+\caption{Diagrama de Estado 2 Caso 1.1}
+\label{fig_E_1_1}
+\end{figure}
+
+\paragraph{Diagrama de Estado Caso 1.2}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Estados_2.png}}
+\caption{Diagrama de Estado  Caso 1.2}
+\label{fig_E_2}
+\end{figure}
+
+\paragraph{Diagrama de Estado Caso 1.3}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Estados_3.png}}
+\caption{Diagrama de Estado  Caso 1.3}
+\label{fig_E_3}
+\end{figure}
+
+\paragraph{Diagrama de Estado Caso 1.4}
+
+\begin{figure}[H]
+\centerline{\includegraphics[width=15cm]{imgs/Estados_4.png}}
+\caption{Diagrama de Estado  Caso 1.4}
+\label{fig_E_4}
+\end{figure}
+
+\paragraph{Diagrama de Estado Caso 1.5}
+
+\paragraph{Diagrama de Estado Caso 1.6}
+
+\paragraph{Diagrama de Estado Caso 1.7}
+
+\paragraph{Diagrama de Estado Caso 1.8}
 
 \subsection{Refinamientos}
 \subsubsection{Lugar de Refinamiento}
