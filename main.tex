@@ -281,10 +281,48 @@ Los diagramas de estado muestran el conjunto de estados por los cuales pasa un o
 \end{figure}
 
 \subsection{Refinamientos}
+
 \subsubsection{Lugar de Refinamiento}
+
+\subparagraph{Estructuración de información}
+Existe la posibilidad de tener el sistema de guardado de datos de usuario fuera de la aplicación.
+
+\subparagraph{Especificaciones de clases}
+Existen clases como las dedicadas a presentar "panel Info" y a controlar "GameManager" que se encargan de demasiadas acciones dentro de la aplicación.
+
+\subparagraph{Feedback de usuario}
+Existen posibles mejoras dentro de la aplicación orientada a la comodidad del usuario en pos de una control de desplazamiento más cómodo.
+
+\subparagraph{Eficiencia técnica}
+existen diferentes consideraciones orientada al uso del procesador dentro de lo que a prestar apoyo gráfico se refiere.
+
+
 \subsubsection{Para cada Lugar}
 \paragraph{Refinamientos considerados}
+
+Dentro de las características principales de esta aplicación se han descubierto posibles mejoras a futuro dentro de los diferentes módulos de desarrollo, en el siguiente  texto se describe la posible mejora y se localiza su ubicación en el proyecto.
+
+Los siguientes refinamientos fueron evaluados “a pulso”.
+
+\subparagraph{\textbf{Información de usuario}}
+Hasta ahora la información de los usuarios solo es administrada de manera local en el dispositivo que ejecuta la aplicación, esta puede ser lleva a un servidor externo para poder tener un seguimiento directo de los usuarios de la aplicación además de abrir la posibilidad de que los usuarios no pierdan la informacion si esta es borrada del dispositivo.
+estos cambios implica la adaptación de los módulos de conexión a la información para un funcionamiento con estos servidores externos y sigue los lineamiento de un patrón enfocado a la seguridad informática.
+
+\subparagraph{\textbf{Desplazamiento del jugador}}
+Dentro de los interacciones básicas de el jugador con el museo existe la posibilidad de desplazarse entre habitaciones, esta interacción puede ser extendida a las herramientas de control táctil “Slide”, el ampliar este input genera una mayor facilidad al usuario para desplazarse dentro de la aplicación.
+
+\subparagraph{\textbf{Visualización de modelos 3D}}
+Existen diferentes lugares dentro del flujo de la aplicación que presentan al usuario los modelados digitales a los usuarios, a pesar de esto no en todos estos momentos se interacciona con este elemento por lo que vuelve ese renderizado en un costo de proceso extra para el dispositivo, esto elementos podrán ser reemplazados por imágenes pre renderizadas para reducir el costo de procesamiento de estos elementos.
+
+\subparagraph{\textbf{Especificación de Presentadores}}
+La clase “InfoPanel” es la encargada de presentar  al usuario la información necesaria, esta se aplica al momento de presentar la información de los diferentes elementos de la aplicación (trofeos, piezas, museos), esta arquitectura limita las interacciones específicas que pueden estar relacionadas a cada uno de los tipos de elementos (por ejemplo el poder compartir relacionado mayormente a los trofeos y las piezas relacionadas a obtener más información) por lo que se optara a la implementación de diferentes presentadores de información que obedezcan a una misma lógica pero que cada clase se especifique a destacar estas relaciones.
+
+\subparagraph{\textbf{Especificación de controladores}}
+La clase “GameplayManager” controla toda las interacciones básicas del usuario dentro del museo lo que genera una responsabilidad extra para esta clase, es posible dividir esta carga creando controladores de movimiento e interacción lo que facilitará la integración de estas funcionalidades al momento de ser codificadas.
+
 \paragraph{Selección y descripción de una opción}
+******* esto esta descrito arriba asi que no se si separar lo de arriba o ignoralo *******
+
 
 %%%%%%%%%%%%%% IMPLEMENTACION %%%%%%%%%%
 \newpage
