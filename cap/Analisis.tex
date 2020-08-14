@@ -131,7 +131,7 @@ Ref\# & Atributo & Detalle y limitación \\
 \hline 
 AT1.1 & Tiempo de respuesta del escaneo & Menor a 1.5 segundos para informar al usuario que se detectó el código y menor a 7 para mostrar el contenido final.  \\ 
 \hline 
-AT1.2 & Uso en móvil gama media & XXXX  \\ 
+AT1.2 & Uso en móvil gama media & Es necesario contar con un dispositivo móvil que permita el uso de la funcionalidad de realidad aumentada y un sistema operativo Android 6.0 o superior. \\ 
 \hline
 AT1.3 & Interfaz implementada con iconos & Cualquier usuario debe ser capaz de orientarse en la aplicación sin importar su edad (dentro de las estipuladas en los grupos usuarios) o idioma (que saber español o inglés no sea un requerimiento para ocupar la app).  \\ 
 \hline
@@ -140,9 +140,6 @@ AT1.4 & Información presentada de manera simple y legible & Tanto la informaci�
 AT1.5 & Tutoriales simples y autoexplicativo & Cada nuevo sistema dentro de la aplicación debe ser enseñado a través de un tutorial que muestre una imagen de ejemplo de lo que se está explicando y un texto que describa la situación como mínimo.	\\ 
 \hline
 AT1.6 & Mantener al usuario interesado, evitar que se frustre & Las piezas a encontrar  siempre deben tener un leve feedback para que el jugador note su presencia, además si el usuario pasa más de 40 segundos en una habitación con una pieza esta debe mostrarse de manera aún más notable, si esto supera los 90 segundos se debe mostrar de forma evidente su ubicación.  \\ 
-\hline
-AT1.7 & XXXX & XXXX  \\ 
-\hline
 \caption{Tabla de Atributos del Sistema}
 \label{tab19}\\
 \end{longtable}
@@ -185,6 +182,7 @@ Se establece como usuario a toda persona que se encuentre actualmente cursando s
 
 \end{enumerate}
 
+
 \subsection{Casos de Uso}
 
 %%%%%%% CASO-1 %%%%%%%%%%%%%%%%
@@ -223,60 +221,112 @@ Se establece como usuario a toda persona que se encuentre actualmente cursando s
 \subsubsection{Contratos} %%apartado de contratos
 
 \paragraph{Contrato 1} 
-\begin{itemize}
-\item Nombre: Escanear código QR
-\item Responsabilidades: El sistema debe reconocer el código QR escaneado y obtener el museo referenciado a ese código QR, proyectando así el museo en la aplicación.
-\item Tipo (concepto, clase de software, sistema): 
-\item Referencias cruzadas: R 1.1, R 1.2
-\item Caso de uso: 1.1 - 1.8
-\item Notas: Nulo
-\item Excepciones: Nulo
-\item Salida: Nulo
-\item Precondiciones: El código debe estar correctamente referenciado al museo en cuestión.
-\item Poscondiciones: El museo debe ser el correspondiente al código QR y debe visualizarse en la aplicación.
-\end{itemize}
+\begin{longtable}{|c|p{7cm}|}
+\hline 
+Parámetros & Contenido
+\hline
+Nombre & Escanear código QR
+\hline
+Responsabilidades & El sistema debe reconocer el código QR escaneado y obtener el museo referenciado a ese código QR, proyectando así el museo en la aplicación.
+\hline
+Tipo & Sistema
+\hline
+Referencias cruzadas & R 1.1, R 1.2
+\hline
+Caso de uso & 1.1 - 1.8
+\hline
+Notas & Nulo
+\hline
+Excepciones & Nulo
+\hline
+Salida & Nulo
+\hline
+Precondiciones & El código debe estar correctamente referenciado al museo en cuestión.
+\hline
+Poscondiciones & El museo debe ser el correspondiente al código QR y debe visualizarse en la aplicación.
+\hline
+\end{longtable}
 
 \paragraph{Contrato 2} 
-\begin{itemize}
-\item Nombre: Obtener una pieza de museo y su info.
-\item Responsabilidades: Obtener la pieza en cuestion, mostrar la información correspondiente y manejar la interacción con la pieza correctamente.
-\item Tipo (concepto, clase de software, sistema): Sistema
-\item Referencias cruzadas: R 2.1 - R 2.8, R 6.1 - R 6.8
-\item Caso de uso: 1.1 - 1.8
-\item Notas: Nulo
-\item Excepciones: Nulo
-\item Salida: Nulo
-\item Precondiciones: La pieza debe estar correctamente referenciada a la información, a su vez debe mostrar el modelo correspondiente en el panel de información, en el menú de piezas y en el panel de interacción
-\item Poscondiciones: El modelo debe ser interactuable, la información debe ser mostrada de manera legible y los botones de los paneles deben tener un funcionamiento establecido. 
-\end{itemize}
+\begin{longtable}{|c|p{7cm}|}
+\hline 
+Parámetros & Contenido
+\hline
+Nombre & Obtener una pieza de museo y su info.
+\hline
+Responsabilidades & Obtener la pieza en cuestion, mostrar la información correspondiente y manejar la interacción con la pieza correctamente.
+\hline
+Tipo & Sistema
+\hline
+Referencias cruzadas & R 2.1 - R 2.8, R 6.1 - R 6.8
+\hline
+Caso de uso & 1.1 - 1.8
+\hline
+Notas & Nulo
+\hline
+Excepciones & Nulo
+\hline
+Salida & Nulo
+\hline
+Precondiciones & La pieza debe estar correctamente referenciada a la información, a su vez debe mostrar el modelo correspondiente en el panel de información, en el menú de piezas y en el panel de interacción
+\hline
+Poscondiciones &El modelo debe ser interactuable, la información debe ser mostrada de manera legible y los botones de los paneles deben tener un funcionamiento establecido. 
+\hline
+\end{longtable}
 
 \paragraph{Contrato 3} 
-\begin{itemize}
-\item Nombre: Obtener logro y su info.
-\item Responsabilidades: Mostrar el logro obtenido y la información correspondiente.
-\item Tipo (concepto, clase de software, sistema): Sistema
-\item Referencias cruzadas: R 7.1 - R 7.6
-\item Caso de uso: 1.6, 1.8
-\item Notas: Nulo
-\item Excepciones: Nulo
-\item Salida: Nulo
-\item Precondiciones:  El logro debe estar correctamente referenciada a la información, a su vez debe mostrar la información correspondiente a ese logro, 
-\item Poscondiciones: En el menú de logros debe aparecen los logros completados y sin completar.
-\end{itemize}
+\begin{longtable}{|c|p{7cm}|}
+\hline 
+Parámetros & Contenido
+\hline
+Nombre & Obtener logro y su info.
+\hline
+Responsabilidades & Mostrar el logro obtenido y la información correspondiente.
+\hline
+Tipo & Sistema
+\hline
+Referencias cruzadas & R 7.1 - R 7.6
+\hline
+Caso de uso & 1.6, 1.8
+\hline
+Notas & Nulo
+\hline
+Excepciones & Nulo
+\hline
+Salida & Nulo
+\hline
+Precondiciones &  El logro debe estar correctamente referenciada a la información, a su vez debe mostrar la información correspondiente a ese logro.
+\hline
+Poscondiciones & En el menú de logros debe aparecen los logros completados y sin completar.
+\hline
+\end{longtable}
 
 \paragraph{Contrato 4} 
-\begin{itemize}
-\item Nombre: Mostrar instrucciones
-\item Responsabilidades: Las instrucciones deben mostrarse de manera correcta.
-\item Tipo (concepto, clase de software, sistema): Sistema.
-\item Referencias cruzadas: R 3.1 - R 3.4
-\item Caso de uso: 1.1 - 1.8
-\item Notas: Nulo
-\item Excepciones: Nulo
-\item Salida: Nulo
-\item Precondiciones: Las instrucciones deben estar escritas correctamente y referenciadas al tutorial pertinente.
-\item Poscondiciones: Las instrucciones deben ser mostradas de manera clara.
-\end{itemize}
+\begin{longtable}{|c|p{7cm}|}
+\hline 
+Parámetros & Contenido
+\hline
+Nombre & Mostrar instrucciones
+\hline
+Responsabilidades & Las instrucciones deben mostrarse de manera correcta.
+\hline
+Tipo & Sistema.
+\hline
+Referencias cruzadas & R 3.1 - R 3.4
+\hline
+Caso de uso &  1.1 - 1.8
+\hline
+Notas & Nulo
+\hline
+Excepciones & Nulo
+\hline
+Salida & Nulo
+\hline
+Precondiciones & Las instrucciones deben estar escritas correctamente y referenciadas al tutorial pertinente.
+\hline
+Poscondiciones &Las instrucciones deben ser mostradas de manera clara.
+\hline
+\end{longtable}
 
 \subsection{Modelo de Dominio}
 Un modelo de dominio en la resolución de problemas e ingeniería de software, es un modelo conceptual de todos los temas relacionados con un problema específico. Dentro de esta sección se analizarán las entidades reconocidas en los casos de uso para dar paso a la creación del Modelo de Dominio.
