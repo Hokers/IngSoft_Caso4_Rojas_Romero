@@ -320,7 +320,7 @@ Dentro de las características principales de esta aplicación se han descubiert
 Los siguientes refinamientos fueron evaluados “a pulso”.
 
 \subparagraph{\textbf{Información de usuario}}
-Hasta ahora la información de los usuarios solo es administrada de manera local en el dispositivo que ejecuta la aplicación, esta puede ser lleva a un servidor externo para poder tener un seguimiento directo de los usuarios de la aplicación además de abrir la posibilidad de que los usuarios no pierdan la informacion si esta es borrada del dispositivo.
+Hasta ahora la información de los usuarios solo es administrada de manera local en el dispositivo que ejecuta la aplicación, esta puede ser lleva a un servidor externo para poder tener un seguimiento directo de los usuarios de la aplicación además de abrir la posibilidad de que los usuarios no pierdan la información si esta es borrada del dispositivo.
 estos cambios implica la adaptación de los módulos de conexión a la información para un funcionamiento con estos servidores externos y sigue los lineamiento de un patrón enfocado a la seguridad informática.
 
 \subparagraph{\textbf{Desplazamiento del jugador}}
@@ -336,7 +336,7 @@ La clase “InfoPanel” es la encargada de presentar  al usuario la informació
 La clase “GameplayManager” controla toda las interacciones básicas del usuario dentro del museo lo que genera una responsabilidad extra para esta clase, es posible dividir esta carga creando controladores de movimiento e interacción lo que facilitará la integración de estas funcionalidades al momento de ser codificadas.
 
 \subparagraph{\textbf{Consolidación de clases establecidas en el UML}}
-Durante la realización del prototipo se crearon las clases definidas anteriormente en el UML, pero debido a fallas en la comunicación del equipo, se realizo el codigo que correspondia a la clase `Gameplay Manager' en una nueva clase que no se encuentra en el UML denominada `MuseumRoomSwitcher', el contenido de esta clase realiza lo que se tenia planeado para la clase `Gameplay Manager', luego de que el equipo analizo esta situacion, decidio eliminar la clase `MuseumRoomSwitcher' pero antes migrando el código de esta a la clase que estaba estipulada en el diagrama UML, de esta forma se mantiene la planificación realizada por el equipo y se mantienen los estándares del código en cuestión.
+Durante la realización del prototipo se crearon las clases definidas anteriormente en el UML, pero debido a fallas en la comunicación del equipo, se realizo el código que correspondía a la clase `Gameplay Manager' en una nueva clase que no se encuentra en el UML denominada `MuseumRoomSwitcher', el contenido de esta clase realiza lo que se tenia planeado para la clase `Gameplay Manager', luego de que el equipo analizo esta situación, decidió eliminar la clase `MuseumRoomSwitcher' pero antes migrando el código de esta a la clase que estaba estipulada en el diagrama UML, de esta forma se mantiene la planificación realizada por el equipo y se mantienen los estándares del código en cuestión.
 
 %\paragraph{Selección y descripción de una opción}
 %******* esto esta descrito arriba asi que no se si separar lo de arriba o ignoralo *******

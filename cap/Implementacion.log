@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  12 AUG 2020 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  13 AUG 2020 20:54
 entering extended mode
 **./Implementacion.tex
 (Implementacion.tex
@@ -574,7 +574,6 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -655,6 +654,11 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no . in font nullfont!
 
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 16--17
+\/cmr/m/n/10 
+ []
+
+
 Overfull \hbox (5.00002pt too wide) in paragraph at lines 16--17
 \/cmr/m/n/10 a
  []
@@ -719,6 +723,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no v in font nullfont!
@@ -772,7 +778,6 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -874,6 +879,11 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no . in font nullfont!
 
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 20--21
+\/cmr/m/n/10 
+ []
+
+
 Overfull \hbox (5.00002pt too wide) in paragraph at lines 20--21
 \/cmr/m/n/10 o
  []
@@ -901,7 +911,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Misplaced alignment tab character &.
 l.22 \item Native Share for Android &
-                                      iOS: Se utilizo esta libreria para pod...
+                                      iOS: Se utilizo esta librería para po...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -932,7 +942,6 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1015,6 +1024,11 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no . in font nullfont!
+
+Overfull \hbox (2.77779pt too wide) in paragraph at lines 22--23
+\/cmr/m/n/10 
+ []
+
 )
 ! Emergency stop.
 <*> ./Implementacion.tex
@@ -1023,11 +1037,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 32 strings out of 480930
- 581 string characters out of 2899762
+ 33 strings out of 480930
+ 583 string characters out of 2899762
  240229 words of memory out of 3000000
- 16003 multiletter control sequences out of 15000+200000
+ 16004 multiletter control sequences out of 15000+200000
  532338 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,3n,16p,240b,97s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 18i,3n,16p,240b,105s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
