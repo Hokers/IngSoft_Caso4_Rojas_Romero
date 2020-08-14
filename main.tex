@@ -116,19 +116,27 @@ La aplicación “Museo en casa” a sido diseñada como una app monolítica, es
 Capa presentación:
 
 GameInfoView: Este visualizador permite mostrar el menú de visualización y es el contenedor donde la información es mostrada al usuario, este se utiliza para mostrar información de las piezas, museos y logros correspondientes.
+
 TutorialView: Este módulo se encarga de mostrar toda la información correspondiente del tutorial, además de guiar al usuario para poder realizar las primeras acciones en la app.
+
 Museum Piece Handler: Este módulo se encarga de la manipulación completa de la pieza de museo seleccionada, permite el zoom in/out, rotación, movimiento, etc.
+
 Gameplay Manager:  Este manager se encarga de el flujo correcto del juego, las acciones del usuario, la información que será mostrada, el funcionamiento de las piezas dentro del museo, la notificación de los logros obtenidos y el correcto cierre de los menús.
 
 Capa dominio:
+
 Search Manager: Se encarga de buscar las piezas, logros y museos que se encuentran almacenados en la base de datos de la app.
+
 Info Manager: Maneja la información correspondiente y se asegura de que esta sea correcta para  los logros, piezas y museos los cuales serán enviados al Gameplay Manager, para ser mostrados al usuario.
+
 Info User Manager: Maneja la información obtenida en el momento que se registra el usuario y la envía a la base de datos de los usuarios de la app.
+
 Vuforia Connect: El sistema se conecta a la Vuforia QR DB que contiene los códigos QR para la carga de información correspondiente.
 
 Capa base de datos:
 
 Info Base DB: Esta base de datos almacena la información correspondiente a los logros, piezas y museos, estos datos serán tomados por el Info Manager para su uso.
+
 Vuforia QR DB: Esta base de datos almacena los códigos QR de cada museo registrado en la app. 
 
 
